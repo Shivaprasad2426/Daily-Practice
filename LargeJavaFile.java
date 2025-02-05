@@ -1,12 +1,9 @@
 // LargeJavaFile.java
-
-// Package declaration (if needed)
 package com.example.largefile;
 
 import java.util.*;
 
 public class LargeJavaFile {
-
     public static void main(String[] args) {
         System.out.println("Starting Large Java File Example...");
 
@@ -43,88 +40,4 @@ class ClassB {
     }
 }
 
-// Adding more classes and methods to make the file larger
-
-class ClassC {
-    public void methodC1() {
-        System.out.println("ClassC - methodC1");
-    }
-
-    public void methodC2() {
-        System.out.println("ClassC - methodC2");
-    }
-}
-
-class ClassD {
-    public void methodD1() {
-        System.out.println("ClassD - methodD1");
-    }
-
-    public void methodD2() {
-        System.out.println("ClassD - methodD2");
-    }
-}
-
-class ClassE {
-    public void methodE1() {
-        System.out.println("ClassE - methodE1");
-    }
-
-    public void methodE2() {
-        System.out.println("ClassE - methodE2");
-    }
-}
-
-// Continue adding more classes and methods as needed to increase the size of the file
-
-class ClassF {
-    public void methodF1() {
-        System.out.println("ClassF - methodF1");
-    }
-
-    public void methodF2() {
-        System.out.println("ClassF - methodF2");
-    }
-}
-
-class ClassG {
-    public void methodG1() {
-        System.out.println("ClassG - methodG1");
-    }
-
-    public void methodG2() {
-        System.out.println("ClassG - methodG2");
-    }
-}
-
-class ClassH {
-    public void methodH1() {
-        System.out.println("ClassH - methodH1");
-    }
-
-    public void methodH2() {
-        System.out.println("ClassH - methodH2");
-    }
-}
-
-class ClassI {
-    public void methodI1() {
-        System.out.println("ClassI - methodI1");
-    }
-
-    public void methodI2() {
-        System.out.println("ClassI - methodI2");
-    }
-}
-
-class ClassJ {
-    public void methodJ1() {
-        System.out.println("ClassJ - methodJ1");
-    }
-
-    public void methodJ2() {
-        System.out.println("ClassJ - methodJ2");
-    }
-}
-
-// And so on...
+// Add more classes as needed...
