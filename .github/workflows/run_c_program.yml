@@ -1,0 +1,26 @@
+name: Run C Program
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up C Compiler
+        run: sudo apt-get install gcc
+
+      - name: Compile C Program
+        run: gcc -o large_c_program large_c_program.c
+
+      - name: Run C Program
+        run: ./large_c_program
