@@ -1,0 +1,26 @@
+name: C++ Build and Run
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install g++
+      run: sudo apt-get install g++
+
+    - name: Compile C++ program
+      run: g++ -o C++ file C+ file.cpp
+
+    - name: Run C++ program
+      run: ./C++ file
