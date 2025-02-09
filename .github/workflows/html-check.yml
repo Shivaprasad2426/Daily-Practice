@@ -1,0 +1,23 @@
+name: HTML Check
+
+on:
+  push:
+    paths:
+      - '**/*.html'
+  pull_request:
+    paths:
+      - '**/*.html'
+
+jobs:
+  html-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Validate HTML
+      uses: cyb3r-jak3/html-validator-action@v1
+      with:
+        file: large_code.html
+        format: text
