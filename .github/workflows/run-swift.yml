@@ -1,0 +1,17 @@
+name: Run Swift Script
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Install Swift
+      run: sudo apt-get update && sudo apt-get install -y swift
+      
+    - name: Run Swift Script
+      run: swift Fibonacci.swift
