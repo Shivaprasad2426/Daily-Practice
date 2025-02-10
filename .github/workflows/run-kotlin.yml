@@ -1,0 +1,23 @@
+name: Run Kotlin Script
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+      
+    - name: Install Kotlin
+      run: sudo apt-get update && sudo apt-get install -y kotlin
+      
+    - name: Run Kotlin Script
+      run: kotlinc Fibonacci.kt -include-runtime -d Fibonacci.jar && java -jar Fibonacci.jar
