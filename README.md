@@ -20,7 +20,12 @@ This repository includes practice problems and examples in the following languag
 - JavaScript (10.4%)
 - Python (9.1%)
 - Java (8.3%)
-- Other (29.1%)
+- Other (29.1%)   --(C++ (695 bytes)
+Go (1574 bytes)
+Kotlin (1198 bytes)
+R (890 bytes)
+Ruby (776 bytes)
+Swift (1194 bytes))
 
 ## Structure
 
