@@ -1,6 +1,6 @@
 # Daily Practice Repository
 
-Welcome to the Daily Practice repository! This repository contains a collection of code examples and practice problems across various programming languages. The goal of this repository is to help improve coding skills through consistent daily practice.
+Welcome to the Daily Practice repository! This repository contains a collection of code examples and practice problems across various programming languages. The goal of this repository is to help improve your coding skills by providing diverse challenges and examples.
 
 ## Table of Contents
 
@@ -14,28 +14,39 @@ Welcome to the Daily Practice repository! This repository contains a collection 
 
 This repository includes practice problems and examples in the following languages:
 
-- C (16.4%)
-- Jupyter Notebook (15.7%)
-- HTML (11%)
-- JavaScript (10.4%)
-- Python (9.1%)
-- Java (8.3%)
-- Other (29.1%)   --(C++ (695 bytes)
-Go (1574 bytes)
-Kotlin (1198 bytes)
-R (890 bytes)
-Ruby (776 bytes)
-Swift (1194 bytes))
+- C (12.6%)
+- Jupyter Notebook (7.7%)
+- HTML (5.4%)
+- Python (40.5%)
+- Java (10.1%)
+- C++ (5.8%)
+- Other (17.9%)
 
 ## Structure
 
 The repository is organized into subdirectories by language. Each language directory contains various practice problems, code examples, and exercises. Below is an example structure:
 
-
-
-## Daily-Practice/ ├── C/ │ ├── example1.c │ └── ... ├── Jupyter_Notebook/ │ ├── example1.ipynb │ └── ... ├── HTML/ │ ├── example1.html │ └── ... ├── JavaScript/ │ ├── example1.js │ └── ... ├── Python/ │ ├── example1.py │ └── ... ├── Java/ │ ├── example1.java │ └── ... └── Other/ ├── example1.txt └── ...
-
-
+```
+Daily-Practice/
+├── C/
+│   ├── example1.c
+│   └── ...
+├── Jupyter_Notebook/
+│   ├── example1.ipynb
+│   └── ...
+├── HTML/
+│   ├── example1.html
+│   └── ...
+├── Python/
+│   ├── example1.py
+│   └── ...
+├── Java/
+│   ├── example1.java
+│   └── ...
+└── C++/
+    ├── example1.cpp
+    └── ...
+```
 
 ## How to Use
 
