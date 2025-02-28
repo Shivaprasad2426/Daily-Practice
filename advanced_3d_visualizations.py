@@ -123,22 +123,4 @@ ax.set_zlabel("Z")
 plt.savefig("3D_quiver_plot.png")
 plt.show()
 
-# Creating a 3D streamplot
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-Y, Z = np.mgrid[-3:3:100j, -3:3:100j]
-X = Y**2 - Z**2
-
-u = -1 - X**2 + Y
-v = 1 + X - Y**2
-w = 1 + X + Z**2
-
-ax.streamplot(X, Y, Z, u, v, w)
-ax.set_title("3D Streamplot")
-ax.set_xlabel("X")
-ax.set_ylabel("Y")
-ax.set_zlabel("Z")
-plt.savefig("3D_streamplot.png")
-plt.show()
-
 # End of the advanced 3D visualizations and animations program
